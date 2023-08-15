@@ -1,20 +1,37 @@
-import React, {useCallback} from 'react';
-import Particles from 'react-tsparticles';
-// import {loadF}
-import { loadFull } from 'tsparticles';
-const Design = () => {
-    const particlesInit = useCallback(async engine => {
-        console.log(engine);
-        // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
-        // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
-        // starting from v2 you can add only the features you need reducing the bundle size
-        //await loadFull(engine);
-        await loadFull(engine);
-    }, []);
+import { useCallback } from "react";
+import Particles from "react-particles";
+//import { loadFull } from "tsparticles"; // if you are going to use `loadFull`, install the "tsparticles" package too.
+import { loadSlim } from "tsparticles-slim"; // if you are going to use `loadSlim`, install the "tsparticles-slim" package too.
 
-    const particlesLoaded = useCallback(async container => {
-        await console.log();
-    }, []);
+// import {loadF}
+// import { loadFull } from 'particles';
+const Design = () => {
+    // const particlesInit = useCallback(async engine => {
+    //     console.log(engine);
+    //     // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
+    //     // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
+    //     // starting from v2 you can add only the features you need reducing the bundle size
+    //     //await loadFull(engine);
+    //     await loadFull(engine);
+    // }, []);
+
+    // const particlesLoaded = useCallback(async container => {
+    //     await console.log();
+    // }, []);
+
+
+    const particlesInit = useCallback(async engine => {
+      console.log(engine);
+      // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
+      // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
+      // starting from v2 you can add only the features you need reducing the bundle size
+      //await loadFull(engine);
+      await loadSlim(engine);
+  }, []);
+
+  const particlesLoaded = useCallback(async container => {
+      await console.log(container);
+  }, []);
 
 
     return (
@@ -102,8 +119,12 @@ const Design = () => {
         }}
       
     />
+   
     )
 
 }
 
 export default Design;
+{/* <div>
+<Particles id="tsparticles" url="http://foo.bar/particles.json" init={particlesInit} loaded={particlesLoaded} />
+</div> */}
