@@ -13,7 +13,7 @@ const Loader = () => {
       };
   return (
 
-    <div className='w-[100vw] h-[100vh] bg-black flex justify-center items-center'>
+    <div className='w-[100vw] h-[100vh] bg-black flex justify-center items-center overflow-hidden'>
       <div 
     className="lg:w-auto lg:h-[100vh] w-[100vw] h-auto flex items-center justify-center"
     >
