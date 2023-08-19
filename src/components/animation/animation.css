@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
 h2 span{
-    font-size: 20px;
+    font-size: 32px;
     font-family: 'Borel', cursive;
-    color: #64748b;
+    color: #111827;
     /* border: 1px solid red; */
     letter-spacing: 1px;
     cursor: pointer;

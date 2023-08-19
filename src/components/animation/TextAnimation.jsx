@@ -1,6 +1,8 @@
 import React, {useState} from 'react';
-import { motion, useAnimationControls } from 'framer-motion';
+import { motion, useAnimationControls, AnimatePresence } from 'framer-motion';
 import './animation.css'
+// import 
+import { headTextAnimation } from '../config/motion';
 const TextAnimate = ({children}) => {
     const [display, setDisplay] = useState(false);
 
@@ -35,7 +37,8 @@ const TextAnimate = ({children}) => {
             
         }}
         onAnimationComplete={() => setDisplay(false)}
-        className='text-slate-500 prism cursor-pointer hover:text-white text-[66px]'
+        {...headTextAnimation}
+        className='text-gray-900 prism cursor-pointer hover:text-white text-[80px] lg:hover:text-[9.5rem] lg:text-[9rem]'
         >
             {children}
         </motion.span>
