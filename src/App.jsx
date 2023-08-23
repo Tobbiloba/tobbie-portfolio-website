@@ -32,7 +32,7 @@ function App() {
   const router = createBrowserRouter(createRoutesFromElements(routes))
 
   return (
-    <div className={`border-8 overflow-x-hidden w-[100vw] ${loading ? 'border-black': 'border-gray-500'}`}>
+    <div className={` overflow-x-hidden w-[100vw] ${loading ? 'border-black': 'border-gray-500'}`}>
       {
         loading ? <Loader /> : (
           <div className="overflow-hidden flex flex-row">
