@@ -1,0 +1,35 @@
+/* CircularTextAnimation.css
+@keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .animate-spin {
+    animation: spin infinite 10s linear;
+  }
+  
+  .rotate-[45deg] {
+    transform: rotate(45deg);
+  } */
+
+
+  /* CircularTextAnimation.css */
+.circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 2px solid #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.circular-text {
+  width: 80%;
+  text-align: center;
+}
