@@ -18,7 +18,7 @@ function App() {
     setLoading(true)
     setTimeout(() => {
       setLoading(false)
-    }, 1000) // Move the timeout value outside the array
+    }, 4000) // Move the timeout value outside the array
   }, [])
 
   const routes = [
