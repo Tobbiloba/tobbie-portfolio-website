@@ -1,0 +1,10 @@
+.backgroundImage{
+    width: 100%;
+    height: 140vh;
+    position: absolute;
+    filter: brightness(60%);
+}
+
+.backgroundImage img{
+    object-fit: cover;
+}

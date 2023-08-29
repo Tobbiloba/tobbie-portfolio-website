@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Arvo:wght@700&family=Bebas+Neue&family=Bodoni+Moda:opsz@6..96&family=Gluten:wght@200&family=Handjet:wght@500&family=Indie+Flower&family=Lilita+One&family=Permanent+Marker&display=swap');
+@font-face {
+  font-family: 'YourFontName'; /* The name you want to give your font */
+  src: url('./assets/font/TH3\ MACHINE.ttf') format('truetype');
+  /* You can include other font formats like woff, woff2 for better browser support */
+}
+
+/* Apply the font to specific elements */
+.your {
+  font-family: 'YourFontName', sans-serif;
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -91,3 +102,79 @@ nav {
     cursor: pointer;
   }
   
+
+
+  .avro {
+    font-family: 'Arvo', serif;
+  }
+ .anton {
+  font-family: 'Anton', sans-serif;
+ }
+ .bebas{
+  font-family: 'Bebas Neue', sans-serif;
+ }
+ .bodoni{
+  font-family: 'Bodoni Moda', serif;
+ }
+ .gluten{
+  font-family: 'Gluten', cursive;
+ }
+ .handjet{
+  font-family: 'Handjet', cursive;
+ }
+ .indie{
+  font-family: 'Indie Flower', cursive;
+ }
+ .lilitia{
+  font-family: 'Lilita One', cursive;
+ }
+ .marker{
+  font-family: 'Permanent Marker', cursive;
+ }
+
+ .curve {
+  height: 225px;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+  /* left: 0; */
+  border: 1px solid red;
+ }
+
+
+ .curve::before {
+  content: '';
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+  width: 55%;
+  height: 100%;
+  /* background-color: #0040a0; */
+  transform: translate(85%, 65%);
+ }
+
+
+ .curve::after {
+  content: '';
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+  width: 55%;
+  height: 100%;
+  /* background-color: #112035; */
+  transform: translate(-4%, 40%);
+  z-index: -1;
+ }
+
+ .spacer {
+  /* aspect-ratio: 960/300;
+  width: 100%; */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* height: 100%; */
+ }
+
+ .layer1{
+  background-image:url('/public/wave-haikei.svg');
+ }

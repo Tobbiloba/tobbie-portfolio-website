@@ -1,6 +1,6 @@
 import Loader from "./components/loader/Loader";
 import { useEffect, useState } from "react"
-import Homescreen from "./screens/Homescreen";
+import Homescreen from "./screens/Home/Homescreen";
 import Aboutus from "./screens/Aboutus";
 import Welcome from "./screens/Welcome";
 
@@ -23,8 +23,8 @@ function App() {
 
   const routes = [
     // Set the "Welcome" screen as the root route ("/")
-    <Route path="/" element={<Welcome />} />,
-    <Route path="/home" element={<Homescreen />} />,
+    // <Route path="/" element={<Welcome />} />,
+    <Route path="/" element={<Homescreen />} />,
     <Route path="/about" element={<Aboutus />} />,
     // Add more routes as needed
   ]

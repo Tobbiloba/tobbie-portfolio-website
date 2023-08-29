@@ -8,9 +8,11 @@ const Aboutus = () => {
   return (
     <div
       ref={ref}
-      style={{ width: '100%', height: '100vh', backgroundColor: 'white' }}
+      // style={{ width: '100%', height: '100vh', backgroundColor: 'white' }}
+      className='bg-white w-[100vw] h-[100vh] z-[100]'
     >
-      <motion.div
+      {/* <h1 className='text-white'>Lol</h1> */}
+      {/* <motion.div
         initial={{ opacity: 0, x: '-100%' }}
         animate={inView ? { opacity: 1, x: 0 } : {}}
         transition={{ duration: 3 }}
@@ -26,7 +28,13 @@ const Aboutus = () => {
         }}
       >
         <p>This is the About Us section</p>
-      </motion.div>
+      </motion.div> */}
+
+{/* <img
+        src="/img1.jpeg" // Replace with your image source
+        alt="Rotated Image"
+        className="transform rotate-45 w-[20rem] h-[20rem] border border-red-500"
+      /> */}
     </div>
   );
 };
