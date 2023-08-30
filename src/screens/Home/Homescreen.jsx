@@ -11,6 +11,8 @@ import Home from "../../components/Home";
 import AboutMe from "../../components/AboutMe";
 import GlowingText from "../../components/animation/GlowingText";
 import Aboutus from "../Aboutus";
+import ProjectOverview from "../../components/ProjectOverview";
+import Experience from "../Experience";
 const Homescreen = () => {
   const options = {
     animationData: animation,
@@ -26,6 +28,8 @@ const Homescreen = () => {
       </div>
       <Home />
 <AboutMe />
+<ProjectOverview />
+<Experience />
 {/* <Aboutus /> */}
     </div>
 
