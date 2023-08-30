@@ -18,7 +18,7 @@ const Homescreen = () => {
     animationData: animation,
     loop: true,
   };
-
+// working
   const { View } = useLottie(options);
   return (
     <div className="w-[100vw] overflow-x-hidden">
