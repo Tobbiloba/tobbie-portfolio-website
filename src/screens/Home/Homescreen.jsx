@@ -21,7 +21,7 @@ const Homescreen = () => {
 
   const { View } = useLottie(options);
   return (
-    <div>
+    <div className="w-[100vw] overflow-x-hidden">
       <Navbar />
       <div className="fixed top-[2rem] left-[2rem] z-[100]">
         <GlowingText /> 
