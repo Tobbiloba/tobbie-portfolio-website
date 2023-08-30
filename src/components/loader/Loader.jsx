@@ -35,19 +35,19 @@ const targetPath = `M0 0 L${dimension.width} 0 L${dimension.width} ${dimension.h
     const { View } = useLottie(options);
   return (
 
-    <motion.div variants={slideUp} initial="initial" exit="exit" 
+    <motion.div 
     // className='w-[100vw] h-[100vh] bg-black flex justify-center items-center overflow-hidden'
-    className={styles.introduction}
+    // className={styles.introduction}
     >
       <div 
-    className="lg:w-auto lg:h-[100vh] w-[100vw] h-auto flex items-center justify-center"
+    className="lg:w-auto lg:h-[100vh] w-[100vw] bg-black h-auto flex items-center justify-center"
     >
         {/* <Lottie options={defaultOptions} />; */}
         {View}
     </div>
-    <svg>
+    {/* <svg>
                     <motion.path variants={curve} initial="initial" exit="exit"></motion.path>
-                </svg>
+                </svg> */}
     </motion.div>
     
   );

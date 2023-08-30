@@ -11,21 +11,25 @@ import Home from "../../components/Home";
 import AboutMe from "../../components/AboutMe";
 import GlowingText from "../../components/animation/GlowingText";
 import Aboutus from "../Aboutus";
+import ProjectOverview from "../../components/ProjectOverview";
+import Experience from "../Experience";
 const Homescreen = () => {
   const options = {
     animationData: animation,
     loop: true,
   };
-
+// working
   const { View } = useLottie(options);
   return (
-    <div>
+    <div className="w-[100vw] overflow-x-hidden">
       <Navbar />
       <div className="fixed top-[2rem] left-[2rem] z-[100]">
         <GlowingText /> 
       </div>
       <Home />
 <AboutMe />
+<ProjectOverview />
+<Experience />
 {/* <Aboutus /> */}
     </div>
 

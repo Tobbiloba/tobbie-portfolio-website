@@ -29,18 +29,8 @@ const Home = () => {
 }
   return (
     <motion.div
-    // variants={slideUp} initial="initial" animate="enter"
-    // variants={slideUp} initial="initial" animate="enter"
       className="w-screen h-[100vh] max-h-[100vh] bg-light flex flex-row overflow-hidden  justify- px-[1rem] lg:px-[10%] items-center "
-//     style={{
-//       flex: 1,
-//       backgroundImage: 'url("/img1.jpeg")', // Replace with your image path
-//       backgroundSize: 'cover', // Adjust as needed
-//       backgroundRepeat: 'no-repeat',
-//       filter: 'grayscale(60%)', // Apply grayscale effect
-//       position: 'relative', //
-//       backgroundPosition: 'center'
-//   }}
+
     >
 
       {/* <motion.div variants={slideUp} initial="initial" animate="enter" className="absolute bg-white z-[100] w-[100vw] h-[100vh] top-0 left-0"></motion.div> */}
@@ -87,8 +77,8 @@ const Home = () => {
 
       <div className="flex lg:flex-row flex-col-reverse gap-[2rem] z-[100]">
         <div className="flex flex-col justify-center ">
-          <TextReveal fontSize='lg:text-[8rem] md:text-[4rem] text-[2.5rem]  text-slate-500'>SALAU</TextReveal>
-          <TextReveal fontSize='lg:text-[8rem] md:text-[4rem] text-[2.5rem]'>OLUWATOBILOBA</TextReveal>
+          <TextReveal fontSize='lg:text-[8rem] avro md:text-[4rem] text-[2.5rem]  text-extralight'>SALAU</TextReveal>
+          <TextReveal fontSize='lg:text-[8rem] avro md:text-[4rem] text-[2.5rem] text-extralight'>OLUWATOBILOBA</TextReveal>
           <div >
 
             {/* <TextReveal fontSize='text-[30px]'>

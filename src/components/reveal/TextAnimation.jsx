@@ -28,7 +28,7 @@ const TextReveal = ({children, width= 'fit-content', fontSize}) => {
                 duration: 0.5, delay:0.25
             }}
         >
-            <p className={` text-white ${fontSize} avro`}>{children}</p>
+            <p className={`  ${fontSize} `}>{children}</p>
         </motion.div>
 
         <motion.div 
@@ -46,7 +46,7 @@ const TextReveal = ({children, width= 'fit-content', fontSize}) => {
                 bottom: 4,
                 left: 0,
                 right: 0,
-                background: '#ca8a04',
+                background: '#13315C',
                 zIndex: 20
             }}
         />
