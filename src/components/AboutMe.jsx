@@ -63,7 +63,7 @@ const AboutMe = () => {
     },
   ]
   return (
-    <div className='w-[100vw] lg:h-[100vh] border  border-red-500  bg-slate-100 flex flex-col lg:flex-row relative'>
+    <div className='w-[100vw] lg:h-[100vh] border  bg-slate-100 flex flex-col lg:flex-row relative'>
       
       {/* <div className='border z-[100] border-black w-[30rem] h-[30rem] object-container transform'>
 
