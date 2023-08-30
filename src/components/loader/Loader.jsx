@@ -40,7 +40,7 @@ const targetPath = `M0 0 L${dimension.width} 0 L${dimension.width} ${dimension.h
     // className={styles.introduction}
     >
       <div 
-    className="lg:w-auto lg:h-[100vh] w-[100vw] bg-black h-auto flex items-center justify-center"
+    className="lg:w-auto lg:h-[100vh] w-[100vw] bg-black h-[100vh] flex items-center justify-center"
     >
         {/* <Lottie options={defaultOptions} />; */}
         {View}
