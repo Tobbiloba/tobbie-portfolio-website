@@ -81,6 +81,7 @@ const AboutMe = () => {
         <img
         src="/img1.jpeg" // Replace with your image source
         alt="Rotated Image"
+        loading="lazy"
         className="transform grayscale hover:grayscale-0 cursor-pointer lg:h-[100%] w-[100%] h-fit border-l-slate-500 object-cover hover:scale-125
         "
       />
