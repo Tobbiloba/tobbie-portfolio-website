@@ -46,7 +46,7 @@ const TextReveal = ({children, width= 'fit-content', fontSize}) => {
                 bottom: 4,
                 left: 0,
                 right: 0,
-                background: '#13315C',
+                background: 'white',
                 zIndex: 20
             }}
         />
