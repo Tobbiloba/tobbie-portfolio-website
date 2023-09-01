@@ -5,7 +5,7 @@ const Experience = () => {
     {
       id: 1,
     role: "Frontend Developer",
-    company: "W",
+    company: "West Afriq Production",
     task: [
       {
         description: "Created error-free code in REACT, JAVASCRIPT, and CSS.",
