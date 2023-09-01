@@ -204,7 +204,7 @@ const [filter, setFilter] = useState('all')
           projects.map((item) => (
             <div className='p-6  rounded-2xl'>
               <div className='md:w-[30rem] w-[100%] h-fit lg:h-[17rem]  bg-secondary p-3 overflow-hidden'>
-              <img src={item.image} alt="image" className='hover:scale- hover:absolute hover:w-[30rem]  hover:z-[100] hover:h-fit cursor-pointer w-[100%] h-auto'/>
+              <img src={item.image} alt="image" className='hover:scale- lg:hover:absolute hover:w-[30rem]  hover:z-[100] hover:h-fit cursor-pointer w-[100%] h-auto'/>
               </div>
               <div className='mt-[1.5rem]'>
                 <div className='flex flex-row justify-between lg:w-[30rem] w-[100%]'>
