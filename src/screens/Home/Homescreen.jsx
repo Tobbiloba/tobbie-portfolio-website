@@ -13,6 +13,7 @@ import GlowingText from "../../components/animation/GlowingText";
 import Aboutus from "../Aboutus";
 import ProjectOverview from "../../components/ProjectOverview";
 import Experience from "../Experience";
+import ContactMe from "../../components/ContactMe";
 const Homescreen = () => {
   const options = {
     animationData: animation,
@@ -22,7 +23,7 @@ const Homescreen = () => {
   const { View } = useLottie(options);
   return (
     <div className="w-[100vw] overflow-x-hidden">
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="fixed top-[2rem] left-[2rem] z-[100]">
         <GlowingText /> 
       </div>
@@ -30,6 +31,7 @@ const Homescreen = () => {
 <AboutMe />
 <ProjectOverview />
 <Experience />
+<ContactMe />
 {/* <Aboutus /> */}
     </div>
 

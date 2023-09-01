@@ -63,7 +63,7 @@ const AboutMe = () => {
     },
   ]
   return (
-    <div className='w-[100vw] lg:h-[100vh] border  bg-slate-100 flex flex-col lg:flex-row relative'>
+    <div className='w-[100vw] lg:h-[100vh]  bg-gray-900 flex flex-col lg:flex-row relative'>
       
       {/* <div className='border z-[100] border-black w-[30rem] h-[30rem] object-container transform'>
 
@@ -76,7 +76,7 @@ const AboutMe = () => {
       {/* <div className='r'></div> */}
       <div className='relative w-[100%] flex  flex-col items-center h-[100vh] lg:h-[100%] justify-center lg:w-[40%]'>
         <div className='h-[100%] w-[50%] absolute'></div>
-        <div className='h-[100%] w-[50%] absolute right-0 bg-light'></div>
+        <div className='h-[100%] w-[50%] absolute right-0 bg-gray-200'></div>
       <div className='lg:w-auto lg:h-[35rem] w-[85vw] max-w-[25rem] h-fit border-8 z-[100] overflow-hidden'>
         <img
         src="/img1.jpeg" // Replace with your image source
@@ -88,16 +88,16 @@ const AboutMe = () => {
         
       <div className='flex flex-col gap-[1.5rem]  mt-[2rem] lg:w-[25rem] w-[85vw]'>
         <div className=''>
-          <AiFillLinkedin className='text-light text-3xl cursor-pointer hover:text-secondary'/>
+          <AiFillLinkedin className='text-gray-500 text-3xl cursor-pointer hover:text-white'/>
         </div>
         <div className=''>
-          <AiFillGithub className='text-light text-3xl cursor-pointer hover:text-secondary'/>
+          <AiFillGithub className='text-gray-500 text-3xl cursor-pointer hover:text-white'/>
         </div>
         <div className=''>
-          <BiLogoGmail className='text-light text-3xl cursor-pointer hover:text-secondary'/>
+          <BiLogoGmail className='text-gray-500 text-3xl cursor-pointer hover:text-white'/>
         </div>
         <div className=''>
-          <AiOutlineWhatsApp className='text-light text-3xl cursor-pointer hover:text-secondary'/>
+          <AiOutlineWhatsApp className='text-gray-500 text-3xl cursor-pointer hover:text-white'/>
         </div>
       </div>
       </div>
@@ -105,21 +105,21 @@ const AboutMe = () => {
       flex flex-col iems-center justify-center'>
         <div className='flex flex-row gap-[.25rem] items-center mb-[1rem]'>
           
-          <TextReveal fontSize='lg:text-[32px] handjet text-secondary  text-[24px]'>
+          <TextReveal fontSize='lg:text-[34px] handjet text-slate-500  text-[24px]'>
             About</TextReveal>
-          <div className='w-4 h-4 rounded-full border border-secondary bg-secondary'></div>
+          <div className='w-4 h-4 rounded-full border border-secondary bg-slate-500'></div>
         </div>
         <div className='flex flex-col gap-4'>
-          <TextReveal fontSize='lg:text-[22px] lilitia text-[#8DA9C4]  text-[20px]'>
+          <TextReveal fontSize='lg:text-[22px] lilitia text-white  text-[20px]'>
           Hey I'm Oluwatobiloba. I am a school dropout who decided to pursue his tech career as a Web Frontend / Mobile Developer. I specialise in web frontend and anrdoid development, currently learning backend development. 
         </TextReveal>
-        <TextReveal fontSize='lg:text-[22px] lilitia text-[#8DA9C4]  text-[20px]'>
+        <TextReveal fontSize='lg:text-[22px] lilitia text-white  text-[20px]'>
           I am currently searching for the role of a frontend developer / mobile developer.
         </TextReveal>
-        <TextReveal fontSize='lg:text-[22px] lilitia text-[#8DA9C4]  text-[20px]'>
+        <TextReveal fontSize='lg:text-[22px] lilitia text-white  text-[20px]'>
         These days i spend most of time researching, coding and working on amazing projects
         </TextReveal>
-        <TextReveal fontSize='lg:text-[22px] lilitia text-[#8DA9C4]  text-[20px]'>
+        <TextReveal fontSize='lg:text-[22px] lilitia text-white  text-[20px]'>
         Outside coding i enjoy watching korean series or playing game.
         </TextReveal>
         </div>
@@ -127,9 +127,9 @@ const AboutMe = () => {
         <div>
         <div className='mt-[3rem]'>
           <div className='flex flex-row gap-[.25rem] items-center mb-[1rem]'>
-          <TextReveal fontSize='lg:text-[32px] handjet text-secondary  text-[24px]'>
+          <TextReveal fontSize='lg:text-[32px] handjet text-slate-500  text-[24px]'>
             Pragramming Languages</TextReveal>
-          <div className='w-4 h-4 rounded-full border border-secondary bg-secondary'></div>
+          <div className='w-4 h-4 rounded-full border border-secondary bg-slate-500'></div>
         </div>
         
         </div>
@@ -138,7 +138,7 @@ const AboutMe = () => {
           {
             languages.map((item) => (
               <div className='' key={item.id}>
-                  <TextReveal fontSize='text-[16px] text-extralight px-4 py-2 rounded-2xl bg-secondary'>{item.name}</TextReveal>
+                  <TextReveal fontSize='text-[16px] text-slate-700 avro px-4 py-2 rounded-2xl bg-secondary'>{item.name}</TextReveal>
               </div>
             ))
           }
@@ -148,9 +148,9 @@ const AboutMe = () => {
         <div>
         <div className='mt-[3rem]'>
           <div className='flex flex-row gap-[.25rem] items-center mb-[1rem]'>
-          <TextReveal fontSize='lg:text-[32px] handjet text-secondary  text-[24px]'>
+          <TextReveal fontSize='lg:text-[32px] handjet text-slate-500  text-[24px]'>
             Others </TextReveal>
-          <div className='w-4 h-4 rounded-full border border-secondary bg-secondary'></div>
+          <div className='w-4 h-4 rounded-full border border-secondary bg-slate-500'></div>
         </div>
         
         </div>
@@ -159,7 +159,7 @@ const AboutMe = () => {
           {
             others.map((item) => (
               <div className='' key={item.id}>
-                  <TextReveal fontSize='text-[16px] text-extralight px-4 py-2 rounded-2xl bg-secondary'>{item.name}</TextReveal>
+                  <TextReveal fontSize='text-[16px] text-slate-700 px-4 py-2 avro rounded-2xl bg-secondary'>{item.name}</TextReveal>
               </div>
             ))
           }

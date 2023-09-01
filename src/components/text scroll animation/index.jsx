@@ -54,7 +54,7 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger'; // Import ScrollTrigger
 import styles from './style.module.scss';
 
-const TextScrollAnimation = () => {
+const TextScrollAnimation = ({children, style}) => {
     const firstText = useRef(null);
     const secondText = useRef(null);
     const slider = useRef(null); // Added missing slider ref
@@ -92,7 +92,7 @@ const TextScrollAnimation = () => {
     return (
         <div className={styles.sliderContainer}>
             <div ref={slider} className={styles.slider}>
-                <p ref={firstText} className='text-extraliht text-[100px] lg:text-[300px]'>Frontend Developer -</p>
+                <p ref={firstText} className='text-gray-600 opacity-[0.3] text-[100px] lilitia lg:text-[300px]'>{children}-</p>
                 {/* <p ref={secondText}>Mobile Developer -</p> */}
             </div>
         </div>
