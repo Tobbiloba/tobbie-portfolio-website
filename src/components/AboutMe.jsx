@@ -3,7 +3,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import MailIcon from '@mui/icons-material/Mail';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
-import {AiFillGithub, AiFillLinkedin, AiOutlineWhatsApp} from 'react-icons/ai'
+import {AiFillGithub, AiFillLinkedin, AiOutlineWhatsApp, AiOutlineTwitter} from 'react-icons/ai'
 import {BiLogoGmail} from 'react-icons/bi'
 import TextReveal from './reveal/TextAnimation';
 const AboutMe = () => {
@@ -89,16 +89,28 @@ const AboutMe = () => {
         
       <div className='flex flex-col gap-[1.5rem]  mt-[2rem] lg:w-[25rem] w-[85vw]'>
         <div className=''>
-          <AiFillLinkedin className='text-gray-500 text-3xl cursor-pointer hover:text-white'/>
+          <a target='_blank' href='https://www.linkedin.com/in/tobiloba-abayomi-356295216/'>
+        <AiFillLinkedin className='text-gray-500 text-3xl cursor-pointer hover:text-white'/>
+          </a>
+          
         </div>
         <div className=''>
-          <AiFillGithub className='text-gray-500 text-3xl cursor-pointer hover:text-white'/>
+        <a target='_blank' href='https://github.com/Tobbiloba'>
+<AiFillGithub className='text-gray-500 text-3xl cursor-pointer hover:text-white'/>
+</a>
+          
         </div>
         <div className=''>
-          <BiLogoGmail className='text-gray-500 text-3xl cursor-pointer hover:text-white'/>
+        <a target='_blank' href='https://twitter.com/TobilobaAbayom2'>
+<AiOutlineTwitter className='text-gray-500 text-3xl cursor-pointer hover:text-white'/>
+</a>
+          
         </div>
         <div className=''>
-          <AiOutlineWhatsApp className='text-gray-500 text-3xl cursor-pointer hover:text-white'/>
+        <a target='_blank' href='https://wa.link/jmgni4'>
+ <AiOutlineWhatsApp className='text-gray-500 text-3xl cursor-pointer hover:text-white'/>
+</a>
+         
         </div>
       </div>
       </div>
@@ -112,18 +124,25 @@ const AboutMe = () => {
         </div>
         <div className='flex flex-col gap-4'>
           <TextReveal fontSize='lg:text-[22px] lilitia text-white  text-[20px]'>
-          Hey I'm Oluwatobiloba. I am a school dropout who decided to pursue his tech career as a Web Frontend / Mobile Developer. I specialise in web frontend and anrdoid development, currently learning backend development. 
+
+Hey👋 , I'm Oluwatobiloba. I'm a self-taught developer on a mission to excel in the tech world. My passion lies in web frontend and Android development, and I'm currently expanding my skills to include backend development as well. 
         </TextReveal>
         <TextReveal fontSize='lg:text-[22px] lilitia text-white  text-[20px]'>
-          I am currently searching for the role of a frontend developer / mobile developer.
+        I am currently searching for the role of a front-end developer / mobile developer.
         </TextReveal>
         <TextReveal fontSize='lg:text-[22px] lilitia text-white  text-[20px]'>
-        These days i spend most of time researching, coding and working on amazing projects
+        These days I spend most of my time researching, coding and working on amazing projects
         </TextReveal>
         <TextReveal fontSize='lg:text-[22px] lilitia text-white  text-[20px]'>
         Outside coding i enjoy watching korean series or playing game.
         </TextReveal>
         </div>
+
+        
+
+
+
+
         
         <div>
         <div className='mt-[3rem]'>
