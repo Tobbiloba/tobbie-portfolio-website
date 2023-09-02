@@ -202,12 +202,12 @@ const [filter, setFilter] = useState('all')
       <div className='grid gap-[2rem] lg:grid-cols-2 justify-between grid-cols-1'>
         {
           projects.map((item) => (
-            <div className='p-6  rounded-2xl'>
-              <div className='md:w-[30rem] w-[100%] h-fit lg:h-[17rem]  bg-secondary p-3 overflow-hidden'>
-              <img src={item.image} alt="image" className='hover:scale- lg:hover:absolute hover:w-[30rem]  hover:z-[100] hover:h-fit cursor-pointer w-[100%] h-auto'/>
+            <div className='p-6  rounded-2xl' key={item.id}>
+              <div className='md:w-[35rem] w-[100%] h-fit lg:h-[17rem]  bg-secondary p-3 overflow-hidden'>
+              <img src={item.image} alt="image" className='hover:scale- lg:hover:absolute lg:hover:w-[30rem]  hover:z-[100] hover:h-fit cursor-pointer w-[100%] h-auto'/>
               </div>
               <div className='mt-[1.5rem]'>
-                <div className='flex flex-row justify-between lg:w-[30rem] w-[100%]'>
+                <div className='flex flex-row justify-between md:w-[30rem] w-[100%]'>
                   <TextReveal fontSize='avro text-white text-[24px]'>{item.name}</TextReveal>
                   <div className='flex flex-row text-white gap-3 text-[20px] '>
                   <a href={item.githubLink} target='_blank' className='hover:text-slate-500 cursor-pointer'><AiFillGithub /></a>
@@ -217,13 +217,13 @@ const [filter, setFilter] = useState('all')
                 <a href={item.liveLink} target='_blank' className='hover:text-slate-500 cursor-pointer'><FaShare className='font-bold '/> </a>
 }</div>
                 </div>
-                <TextReveal fontSize="text-gray-500 font-bold py-1 lg:w-[30rem] w-[100%]">{item.description} </TextReveal>
+                <TextReveal fontSize="text-gray-500 font-bold py-1 md:w-[30rem] w-[100%]">{item.description} </TextReveal>
 
               
               <div className='flex flex-row flex-wrap w-[30rem] gap-[1rem] mt-[.5rem]'>
               {
                 item.languages.map((language) => (
-                  <TextReveal fontSize='lilitia border text-extralight px-3 py-1'>{language.name}</TextReveal>
+                  <TextReveal fontSize='lilitia border text-extralight px-3 py-1' key={language.name}>{language.name}</TextReveal>
                 ))
               }
               </div>

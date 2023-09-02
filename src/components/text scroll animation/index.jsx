@@ -92,7 +92,7 @@ const TextScrollAnimation = ({children, style}) => {
     return (
         <div className={styles.sliderContainer}>
             <div ref={slider} className={styles.slider}>
-                <p ref={firstText} className='text-gray-600 opacity-[0.3] text-[100px] lilitia lg:text-[300px]'>{children}-</p>
+                <p ref={firstText} className='text-gray-600 opacity-[0.3] text-[100px] md:text-[200px] lilitia lg:text-[300px]'>{children}-</p>
                 {/* <p ref={secondText}>Mobile Developer -</p> */}
             </div>
         </div>
