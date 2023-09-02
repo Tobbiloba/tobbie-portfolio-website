@@ -128,13 +128,13 @@ const AboutMe = () => {
 Hey👋 , I'm Oluwatobiloba. I'm a self-taught developer on a mission to excel in the tech world. My passion lies in web frontend and Android development, and I'm currently expanding my skills to include backend development as well. 
         </TextReveal>
         <TextReveal fontSize='lg:text-[22px] lilitia text-white  text-[20px]'>
-        I am currently searching for the role of a front-end developer / mobile developer.
+        I am currently searching a front-end developer / mobile developer role.
         </TextReveal>
         <TextReveal fontSize='lg:text-[22px] lilitia text-white  text-[20px]'>
         These days I spend most of my time researching, coding and working on amazing projects
         </TextReveal>
         <TextReveal fontSize='lg:text-[22px] lilitia text-white  text-[20px]'>
-        Outside coding i enjoy watching korean series or playing game.
+        Outside coding I enjoy watching korean series or playing FreeFire.
         </TextReveal>
         </div>
 
