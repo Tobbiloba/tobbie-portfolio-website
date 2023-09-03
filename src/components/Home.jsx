@@ -29,7 +29,7 @@ const Home = () => {
 }
   return (
     <motion.div
-      className="w-screen h-[100vh] max-h-[100vh] bg-black flex flex-row overflow-hidden  justify- px-[1rem] lg:px-[10%] items-center "
+      className="w-screen h-[100vh] max-h-[100vh] bg-black flex flex-row overflow-hidden  justify- px-[5%] md:px-[6.5%] lg:px-[10%] items-center "
 
     >
 
@@ -77,15 +77,10 @@ const Home = () => {
 
       <div className="flex lg:flex-row flex-col-reverse gap-[2rem] z-[100]">
         <div className="flex flex-col justify-center ">
-          <TextReveal fontSize='lg:text-[8rem] avro md:text-[4rem] text-[2.5rem]  text-extralight'>SALAU</TextReveal>
-          <TextReveal fontSize='lg:text-[8rem] avro md:text-[4rem] text-[2.5rem] text-extralight'>OLUWATOBILOBA</TextReveal>
+          <TextReveal fontSize='lg:text-[8rem] avro md:text-[6rem] text-[10vw]  text-extralight'>SALAU</TextReveal>
+          <TextReveal fontSize='lg:text-[8rem] md:w-[100%] avro md:text-[5rem] text-[9.5vw] text-extralight'>OLUWATOBILOBA</TextReveal>
           <div >
 
-            {/* <TextReveal fontSize='text-[30px]'>
-            Hello my name is <span className="text-[28px] text-gray-200">Salau Oluwatobiloba Abayomi</span>, nice to meet you <br />I would like to welcome you to my personal portfolio.
-            </TextReveal> */}
-
-            {/* <p className="your text-white">lol</p> */}
 
           <motion.p initial={{opacity: 0.25, y: 150}} animate={{opacity: 1, y: 0}} transition={{ease: 'easeInOut', duration: 1}} className="text-gray-500 lilitia text-[23px]">Hello my name is <span className="text-[23px] text-gray-200">Salau Oluwatobiloba Abayomi</span>, nice to meet you. <br />I would like to welcome you to my personal portfolio.</motion.p>
           </div>

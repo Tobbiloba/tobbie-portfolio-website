@@ -63,7 +63,7 @@ const AboutMe = () => {
     },
   ]
   return (
-    <div className='w-[100vw] lg:h-[100vh]  bg-gray-900 flex flex-col lg:flex-row relative'>
+    <div className='w-[100vw] lg:h-[100vh]  bg-black flex flex-col lg:flex-row relative'>
       
       {/* <div className='border z-[100] border-black w-[30rem] h-[30rem] object-container transform'>
 
@@ -116,12 +116,19 @@ const AboutMe = () => {
       </div>
       <div className='relative w-[100vw] h-fit py-[2rem] lg:h-[100%]  lg:w-[60%] px-[5%]
       flex flex-col iems-center justify-center'>
-        <div className='flex flex-row gap-[.25rem] items-center mb-[1rem]'>
+        {/* <div className='flex flex-row gap-[.25rem] items-center mb-[1rem]'>
           
           <TextReveal fontSize='lg:text-[34px] handjet text-slate-500  text-[24px]'>
             About</TextReveal>
           <div className='w-4 h-4 rounded-full border border-secondary bg-slate-500'></div>
-        </div>
+        </div> */}
+
+<div className="flex flex-row gap-[.5rem] items-center mb-[1rem]">
+        <TextReveal fontSize="lg:text-[32px] gluten text-gray-500  text-[24px]">
+          About Me{" "}
+        </TextReveal>
+        <div className="lg:w-4 lg:h-4 h-3 w-3 rounded-full bord bg-gray-500"></div>
+      </div>
         <div className='flex flex-col gap-4'>
           <TextReveal fontSize='lg:text-[22px] lilitia text-white  text-[20px]'>
 
@@ -146,11 +153,17 @@ Hey👋 , I'm Oluwatobiloba. I'm a self-taught developer on a mission to excel i
         
         <div>
         <div className='mt-[3rem]'>
-          <div className='flex flex-row gap-[.25rem] items-center mb-[1rem]'>
+          {/* <div className='flex flex-row gap-[.25rem] items-center mb-[1rem]'>
           <TextReveal fontSize='lg:text-[32px] handjet text-slate-500  text-[24px]'>
             Pragramming Languages</TextReveal>
           <div className='w-4 h-4 rounded-full border border-secondary bg-slate-500'></div>
-        </div>
+        </div> */}
+              <div className="flex flex-row gap-[.5rem] items-center mb-[1rem]">
+        <TextReveal fontSize="lg:text-[32px] gluten text-gray-500  text-[24px]">
+          Programming Languages{" "}
+        </TextReveal>
+        <div className="lg:w-4 lg:h-4 h-3 w-3 rounded-full bord bg-gray-500"></div>
+      </div>
         
         </div>
 
@@ -167,11 +180,17 @@ Hey👋 , I'm Oluwatobiloba. I'm a self-taught developer on a mission to excel i
 
         <div>
         <div className='mt-[3rem]'>
-          <div className='flex flex-row gap-[.25rem] items-center mb-[1rem]'>
+          {/* <div className='flex flex-row gap-[.25rem] items-center mb-[1rem]'>
           <TextReveal fontSize='lg:text-[32px] handjet text-slate-500  text-[24px]'>
             Others </TextReveal>
           <div className='w-4 h-4 rounded-full border border-secondary bg-slate-500'></div>
-        </div>
+        </div> */}
+              <div className="flex flex-row gap-[.5rem] items-center mb-[1rem]">
+        <TextReveal fontSize="lg:text-[32px] gluten text-gray-500  text-[24px]">
+          Other{" "}
+        </TextReveal>
+        <div className="lg:w-4 lg:h-4 h-3 w-3 rounded-full bord bg-gray-500"></div>
+      </div>
         
         </div>
         
