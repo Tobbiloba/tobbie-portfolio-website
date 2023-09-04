@@ -2,7 +2,8 @@ import { useRef } from 'react';
 import { useScroll, useTransform, motion } from 'framer-motion';
 import styles from './style.module.scss';
 // import Image from 'next/image';
-import {BsArrowRightShort} from 'react-icons/bs'
+import {BsArrowRightShort} from 'react-icons/bs';
+import { Link } from 'react-router-dom';
 const slider1 = [
     {
       id: 1,
@@ -222,10 +223,13 @@ export default function ProjectSlider() {
                         })
                     }
                 </motion.div>
-                <div className='relative mx-[1rem] md:px-[7.5%] w-fit cursor-pointer lg:px-[10%] my-[2rem] flex flex-row gap-[.5rem] items-center'>
-                  <h1 className='text-white avro'>View Projects</h1>
-                  <BsArrowRightShort className='text-white  text-[25px] hover:translate-x-6'/>
-                </div>
+                <Link to="/projects">
+                  <div className='relative mx-[1rem] md:px-[7.5%] w-fit cursor-pointer lg:px-[10%] my-[2rem] flex flex-row gap-[.5rem] items-center'>
+                    <h1 className='text-white avro'>View Projects</h1>
+                    <BsArrowRightShort className='text-white  text-[25px] hover:translate-x-6'/>
+                  </div>
+                </Link>
+                
                 <motion.div style={{height}} className={styles.circleContainer}>
                     <div className={styles.circle}></div>
                 </motion.div>

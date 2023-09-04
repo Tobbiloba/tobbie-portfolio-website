@@ -77,7 +77,9 @@ const Home = () => {
 
       <div className="flex lg:flex-row flex-col-reverse gap-[2rem] z-[100]">
         <div className="flex flex-col justify-center ">
-          <TextReveal fontSize='lg:text-[8rem] avro md:text-[6rem] text-[10vw]  text-extralight'>SALAU</TextReveal>
+          <TextReveal 
+          fontSize='lg:text-[8rem] text-[10vw] md:text-[6rem] avro    text-extralight'
+          >SALAU</TextReveal>
           <TextReveal fontSize='lg:text-[8rem] md:w-[100%] avro md:text-[5rem] text-[9.5vw] text-extralight'>OLUWATOBILOBA</TextReveal>
           <div >
 
