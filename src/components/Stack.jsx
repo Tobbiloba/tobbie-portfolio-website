@@ -27,7 +27,7 @@ const Stack = () => {
         </div> 
         <div className='max-w-[30rem] text-center py-6 px-[1rem] flex flex-col items-center'>
             <TextReveal fontSize="text-white avro text-2xl">Frontend Developer</TextReveal>
-            <p className="text-slate-500 gluten mt-3 px-[1rem]">A proficient frontend developer skilled in crafting responsive and visually appealing web applications using HTML, CSS, Javascript and Reactjs to bring innovative designs to life and enhance better user engagement.</p>
+            <p className="text-slate-500 gluten mt-3 px-[1rem] border">A proficient frontend developer skilled in crafting responsive and visually appealing web applications using HTML, CSS, Javascript and Reactjs to bring innovative designs to life and enhance better user engagement.</p>
         </div>
         </div>
         
