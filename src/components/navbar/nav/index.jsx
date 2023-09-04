@@ -14,17 +14,17 @@ const navItems = [
     href: '/',
   },
   {
-    title: 'Work',
-    href: '/work',
+    title: 'Projects',
+    href: '/projects',
   },
-  {
-    title: 'About',
-    href: '/about',
-  },
-  {
-    title: 'Contact',
-    href: '/contact',
-  },
+  // {
+  //   title: 'About',
+  //   href: '/about',
+  // },
+  // {
+  //   title: 'Contact',
+  //   href: '/contact',
+  // },
 ];
 
 export default function App() {

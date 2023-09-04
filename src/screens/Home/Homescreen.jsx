@@ -15,6 +15,7 @@ import ProjectOverview from "../../components/ProjectOverview";
 import Experience from "../Experience";
 import ContactMe from "../../components/ContactMe";
 import ProjectSlider from "../../components/SlidingProjectOverview/ProjectSliding";
+import Stack from "../../components/Stack";
 const Homescreen = () => {
   const options = {
     animationData: animation,
@@ -30,6 +31,7 @@ const Homescreen = () => {
       </div>
       <Home />
 <AboutMe />
+<Stack />
 <ProjectSlider />
 {/* <ProjectOverview /> */}
 <Experience />
