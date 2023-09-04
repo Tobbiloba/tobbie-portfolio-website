@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import GlowingText from '../components/animation/GlowingText';
 import ContactMe from '../components/ContactMe';
 import Navbar from '../components/navbar';
@@ -9,6 +9,11 @@ import Home from '../components/Home';
 import ShuffleHero from '../components/ProjectHome';
 const ProjectScreen = () => {
     const [filter, setFilter] = useState('all')
+
+    useEffect(() => {
+      // Scroll to the top of the page when the component mounts
+      window.scrollTo(0, 0);
+    }, []);
   return (
     <div className='bg-black w-[100vw] pt-[3rem]'>
         <div className="absolute top-[2rem] left-[2rem] z-[100]">
