@@ -84,7 +84,7 @@ const Home = () => {
           <div >
 
 
-          <motion.p initial={{opacity: 0.25, y: 150}} animate={{opacity: 1, y: 0}} transition={{ease: 'easeInOut', duration: 1}} className="text-gray-500 lilitia text-[23px]">Hello my name is <span className="text-[23px] text-gray-200">Salau Oluwatobiloba Abayomi</span>, nice to meet you. <br />I would like to welcome you to my personal portfolio.</motion.p>
+          <motion.p initial={{opacity: 0.25, y: 150}} animate={{opacity: 1, y: 0}} transition={{ease: 'easeInOut', duration: 1}} className="text-gray-500 avro text-[23px]">Hello my name is <span className="text-[23px] text-gray-200">Salau Oluwatobiloba Abayomi</span>, nice to meet you. <br />I would like to welcome you to my personal portfolio.</motion.p>
           </div>
         </div>
         <TextScrollAnimation>Frontend Developer</TextScrollAnimation>
@@ -102,22 +102,13 @@ const Home = () => {
       {/* <div className="absolute top-[100vh] w-[100%] border">
         
       </div> */}
-      {/* <div className="text-white border border-slate-500 h-[100vh] w-[6rem] absolute left-0 top-0 z-0">
-  <h1 className="border rotate-90 bg-white w-[6rem] h-[5rem] transform origin-top-right absolute right-[6rem] top-[6rem]">
-    Hey
-  </h1>
-</div> */}
 
 
-      {/* <div class="rotate-45 transform origin-center">
-  <p class="rotate-neg-45">Rotated Text</p>
-</div> */}
 
 
-{/* <div class="relative">
-  <div class="top-part absolute h-16 w-full bg-blue-500 transform skew-y-3"></div>
-  <div class="bottom-part h-16 bg-red-500">Content</div>
-</div> */}
+
+
+
 
       
     </motion.div>

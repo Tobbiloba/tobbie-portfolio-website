@@ -8,10 +8,10 @@ const ShuffleHero = () => {
 
   return (
 
-    <section className="w-full px-8 py-12 grid grid-cols-1 md:grid-cols-2 items-center gap-8 max-w-7xl mx-auto">
+    <section className="w-full px-[1rem] md:px-8 py-12 grid grid-cols-1 md:grid-cols-2 items-center gap-8 max-w-7xl mx-auto">
 
       <div>
-        <TextReveal fontSize="block mb-4 text-xs md:text-sm text-indigo-500 font-medium">
+        <TextReveal fontSize="block mb-4 text-xs avro md:text-sm text-indigo-500 font-medium">
         Welcome to project section
         </TextReveal>
 
@@ -25,7 +25,7 @@ const ShuffleHero = () => {
 
 
 
-        <p className="text-base md:text-lg text-slate-700 my-4 md:my-6">
+        <p className="text-base avro md:text-lg text-slate-700 my-4 md:my-6">
 
         Welcome to my projects page! Explore a showcase of my creative work, from web development to design and more. Dive into a world of innovation and craftsmanship, where every project tells a unique story.
 
