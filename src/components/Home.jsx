@@ -88,7 +88,7 @@ const Home = () => {
           </div>
         </div>
         <TextScrollAnimation>Frontend Developer- Frontend Developer</TextScrollAnimation>
-        {/* <Navbar /> */}
+        
         {/* <div>
           <motion.img initial={{x: 750, opacity: 0.25}}
           animate={{x: 0, opacity: 1}}
