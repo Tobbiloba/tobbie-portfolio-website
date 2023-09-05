@@ -27,7 +27,11 @@ const Stack = () => {
         </div> 
         <div className='lg:max-w-[30rem] w-[85%] text-center  mx-auto py-6 px-[1rem] flex flex-col items-center'>
             <TextReveal fontSize="text-white avro text-2xl">Frontend Developer</TextReveal>
+
             <p className="text-slate-500 px-[1rem] avro mt-3">A proficient frontend developer skilled in crafting responsive and visually appealing web applications using HTML, CSS, Javascript and Reactjs to bring innovative designs to life and enhance better user engagement.</p>
+
+            <p className="text-slate-500 gluten mt-3 px-[1rem]">A proficient frontend developer skilled in crafting responsive and visually appealing web applications using HTML, CSS, Javascript and Reactjs to bring innovative designs to life and enhance better user engagement.</p>
+
         </div>
         </div>
         
@@ -35,7 +39,11 @@ const Stack = () => {
             <MobileAnimations />
             <div className='md:max-w-[30rem] w-[85%]  text-center  py-6 flex flex-col items-center'>
                 <TextReveal fontSize="text-white avro text-2xl">Mobile Developer</TextReveal>
+
                 <p className="text-slate-500 px-[1rem]  avro mt-3">I specialize in React Native mobile development, harnessing its power to build sleek and responsive cross-platform apps that captivate users.</p>
+
+                <p className="text-slate-500 gluten mt-3 px-[1rem]">I specialize in React Native mobile development, harnessing its power to build sleek and responsive cross-platform apps that captivate users.</p>
+
             </div>
         </div>
       
