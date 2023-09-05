@@ -75,13 +75,13 @@ const Experience = () => {
   ]
   return (
     <div className="bg-black text-white lg:px-[10%] px-[1rem] py-[2rem]">
-      <div className="flex flex-row gap-[.5rem] items-center mb-[1rem]">
-        <TextReveal fontSize="lg:text-[32px] gluten text-gray-500  text-[24px]">
+      <div className="flex flex-row gap-[.5rem] items-center mb-[3rem] lg:mb-[1rem]">
+        <TextReveal fontSize="lg:text-[32px] avro text-gray-500  text-[24px]">
           Experience{" "}
         </TextReveal>
-        <div className="lg:w-4 lg:h-4 h-3 w-3 rounded-full bord bg-gray-500"></div>
+        <div className="lg:w-4 lg:h-4 h-3 w-3 rounded-full bg-gray-500"></div>
       </div>
-      <div className="w-[100%] flex flex-col gap-[2rem]">
+      <div className="w-[100%] flex flex-col gap-[4rem] md:gap-[2rem]">
         {
           experience.map((item) => (
             <div className="border border-black border-b-white px-2 py-6">
@@ -99,7 +99,7 @@ const Experience = () => {
               {item.task.map((item) => (
                 <div className="my-[.5rem] flex flex-row items-center gap-4">
                   <div className="lg:w-4 lg:h-4 h-3 w-3 bg-white rounded-full border"></div>
-                  <TextReveal fontSize="lg:text-[16px] text-[14px]">{item.description}</TextReveal>
+                  <TextReveal fontSize="lg:text-[16px] avro text-[14px]">{item.description}</TextReveal>
                 </div>
               ))}
               <div className="mt-[2rem] flex flex-row gap-[2rem]">
@@ -115,9 +115,9 @@ const Experience = () => {
         }
       </div>
 
-      <div>
+      <div className="mt-[3rem]">
         {/* <button></button> */}
-        <a href="https://drive.google.com/file/d/1RXFHGNBAGH47dNutNgaPgTp7YI9PJxYg/view?usp=drive_link" target="_blank" className="border px-3 py-2 relative top-[2rem]">Resume</a>
+        <a href="https://drive.google.com/file/d/1RXFHGNBAGH47dNutNgaPgTp7YI9PJxYg/view?usp=drive_link" target="_blank" className="border avro px-3 py-2 relative top-[2rem]">Resume</a>
       </div>
     </div>
   );

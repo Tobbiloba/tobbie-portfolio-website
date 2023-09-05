@@ -64,16 +64,7 @@ const AboutMe = () => {
   ]
   return (
     <div className='w-[100vw] lg:h-[100vh]  bg-black flex flex-col lg:flex-row relative'>
-      
-      {/* <div className='border z-[100] border-black w-[30rem] h-[30rem] object-container transform'>
 
-      <img
-        src="/img1.jpeg" // Replace with your image source
-        alt="Rotated Image"
-        className="transform w-[100%] h-[100%] object-cover"
-      />
-      </div> */}
-      {/* <div className='r'></div> */}
       <div className='relative w-[100%] flex  flex-col items-center h-[100vh] lg:h-[100%] justify-center lg:w-[40%]'>
         <div className='h-[100%] w-[50%] absolute'></div>
         <div className='h-[100%] w-[50%] absolute right-0 bg-gray-200'></div>
@@ -116,31 +107,26 @@ const AboutMe = () => {
       </div>
       <div className='relative w-[100vw] h-fit py-[2rem] lg:h-[100%]  lg:w-[60%] px-[5%]
       flex flex-col iems-center justify-center'>
-        {/* <div className='flex flex-row gap-[.25rem] items-center mb-[1rem]'>
-          
-          <TextReveal fontSize='lg:text-[34px] handjet text-slate-500  text-[24px]'>
-            About</TextReveal>
-          <div className='w-4 h-4 rounded-full border border-secondary bg-slate-500'></div>
-        </div> */}
+
 
 <div className="flex flex-row gap-[.5rem] items-center mb-[1rem]">
-        <TextReveal fontSize="lg:text-[32px] gluten text-gray-500  text-[24px]">
+        <TextReveal fontSize="lg:text-[32px] avro text-gray-500  text-[24px]">
           About Me{" "}
         </TextReveal>
         <div className="lg:w-4 lg:h-4 h-3 w-3 rounded-full bord bg-gray-500"></div>
       </div>
         <div className='flex flex-col gap-4'>
-          <TextReveal fontSize='lg:text-[22px] lilitia text-white  text-[20px]'>
+          <TextReveal fontSize='lg:text-[22px] avro text-white  text-[20px]'>
 
 Hey👋 , I'm Oluwatobiloba. I'm a self-taught developer on a mission to excel in the tech world. My passion lies in web frontend and Android development, and I'm currently expanding my skills to include backend development as well. 
         </TextReveal>
-        <TextReveal fontSize='lg:text-[22px] lilitia text-white  text-[20px]'>
+        <TextReveal fontSize='lg:text-[22px] avro text-white  text-[20px]'>
         I am currently searching a front-end developer / mobile developer role.
         </TextReveal>
-        <TextReveal fontSize='lg:text-[22px] lilitia text-white  text-[20px]'>
+        <TextReveal fontSize='lg:text-[22px] avro text-white  text-[20px]'>
         These days I spend most of my time researching, coding and working on amazing projects
         </TextReveal>
-        <TextReveal fontSize='lg:text-[22px] lilitia text-white  text-[20px]'>
+        <TextReveal fontSize='lg:text-[22px] avro text-white  text-[20px]'>
         Outside coding I enjoy watching korean series or playing FreeFire.
         </TextReveal>
         </div>
@@ -152,14 +138,14 @@ Hey👋 , I'm Oluwatobiloba. I'm a self-taught developer on a mission to excel i
 
         
         <div>
-        <div className='mt-[3rem]'>
+        <div className='md:mt-[3rem] mt-[5rem]'>
           {/* <div className='flex flex-row gap-[.25rem] items-center mb-[1rem]'>
           <TextReveal fontSize='lg:text-[32px] handjet text-slate-500  text-[24px]'>
             Pragramming Languages</TextReveal>
           <div className='w-4 h-4 rounded-full border border-secondary bg-slate-500'></div>
         </div> */}
               <div className="flex flex-row gap-[.5rem] items-center mb-[1rem]">
-        <TextReveal fontSize="lg:text-[32px] gluten text-gray-500  text-[24px]">
+        <TextReveal fontSize="lg:text-[32px] avro text-gray-500  text-[24px]">
           Programming Languages{" "}
         </TextReveal>
         <div className="lg:w-4 lg:h-4 h-3 w-3 rounded-full bord bg-gray-500"></div>
@@ -179,14 +165,14 @@ Hey👋 , I'm Oluwatobiloba. I'm a self-taught developer on a mission to excel i
         </div>
 
         <div>
-        <div className='mt-[3rem]'>
+        <div className='md:mt-[3rem] mt-[5rem]'>
           {/* <div className='flex flex-row gap-[.25rem] items-center mb-[1rem]'>
           <TextReveal fontSize='lg:text-[32px] handjet text-slate-500  text-[24px]'>
             Others </TextReveal>
           <div className='w-4 h-4 rounded-full border border-secondary bg-slate-500'></div>
         </div> */}
               <div className="flex flex-row gap-[.5rem] items-center mb-[1rem]">
-        <TextReveal fontSize="lg:text-[32px] gluten text-gray-500  text-[24px]">
+        <TextReveal fontSize="lg:text-[32px] avro text-gray-500  text-[24px]">
           Other{" "}
         </TextReveal>
         <div className="lg:w-4 lg:h-4 h-3 w-3 rounded-full bord bg-gray-500"></div>
@@ -204,12 +190,6 @@ Hey👋 , I'm Oluwatobiloba. I'm a self-taught developer on a mission to excel i
           }
         </div>
         </div>
-       
-        
-        {/* <h1 className='lg:text-5xl text-2xl avro text-light'>I'm <span className='text-primary lg:text-5xl text-2xl'>Oluwatobiloba</span>, a <span className='underline lg:text-5xl text-2xl text-primary'>reactjs frontend developer</span> / <span className='underline lg:text-5xl text-2xl text-primary'>react native mobile developer</span>  currently open to job opportunities.</h1> */}
-        {/* <p className='mt-[5rem] text-xl avro'>I have spent the past few years working on mobile applications and websites across different screen sizes.</p>
-        <p className='mt-[1rem] text-xl avro'>These days i spend most of time researching, coding and working on amazing projects</p>
-        <p className='mt-[1rem] text-xl avro'>Outside coding i enjoy watching korean series or playing game.</p> */}
       </div>
 
     </div>

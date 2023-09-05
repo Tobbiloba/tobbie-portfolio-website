@@ -59,7 +59,7 @@ const TextScrollAnimation = ({children, style}) => {
     const secondText = useRef(null);
     const slider = useRef(null); // Added missing slider ref
 
-    const xPercent = 0; // Define xPercent
+    let xPercent = 0; // Define xPercent
     let direction = 1; // Define direction
 
     const animate = () => {
@@ -69,8 +69,8 @@ const TextScrollAnimation = ({children, style}) => {
             xPercent = -100;
         }
         gsap.set(firstText.current, { xPercent: xPercent });
-        gsap.set(secondText.current, { xPercent: xPercent });
-        requestAnimationFrame(animate);
+        // gsap.set(secondText.current, { xPercent: xPercent });
+        // requestAnimationFrame(animate);
         xPercent += 0.1 * direction;
     };
 

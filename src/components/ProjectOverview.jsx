@@ -27,7 +27,7 @@ const ProjectOverview = ({ filter }) => {
     {
       id: 2,
       name: "Tesla mobile app",
-      description: "The Tesla Mobile App, an ongoing project, enhances Tesla ownership by enabling remote vehicle monitoring and control via smartphones. It offers features like battery status checks, climate adjustments, and software updates. While the app already delivers value, ongoing development focuses on refining and expanding capabilities. Future enhancements will include advanced diagnostics, security features, and deeper integration with Autopilot and Full Self-Driving systems. Tesla Mobile App aims to provide an unparalleled ownership experience, with more exciting updates in the pipeline.",
+      description: "The Tesla Mobile App, an ongoing project, enhances Tesla ownership by enabling remote vehicle monitoring and control via smartphones. It offers features like battery status checks, climate adjustments, and software updates. While the app already delivers value, ongoing development focuses on refining and expanding capabilities. Future enhancements will include advanced diagnostics, security features, and deeper integration with Autopilot and Full Self-Driving car.",
       languages: [
         { name: "React Native" },
         // { name: 'yoruba' },
@@ -178,10 +178,10 @@ const ProjectOverview = ({ filter }) => {
 
   return (
     <div className="relative w-[100%] mt-[2rem]">
-      <div className="flex flex-col gap-[1.5rem]">
+      <div className="flex flex-col gap-[5rem] lg:gap-[1.5rem]">
         {filteredData.map((item) => (
-          <div className="p-6 gap-[1rem] flex lg:flex-row flex-col justify-between rounded-2xl" key={item.id}>
-            <div className="lg:w-[35rem] md:w-[30rem] border w-[100%] h-fit lg:h-auto  bg-secondary p-3 overflow-hidden">
+          <div className="gap-[1rem] flex lg:flex-row flex-col justify-between rounded-2xl" key={item.id}>
+            <div className="lg:w-[35rem] md:w-[30rem] w-[100%] h-fit lg:h-auto  overflow-hidden">
               <img
                 src={item.image}
                 alt="image"
@@ -212,11 +212,11 @@ const ProjectOverview = ({ filter }) => {
                   )}
                 </div>
               </div>
-              <TextReveal fontSize="text-gray-500 font-bold py-1 md:w-[30rem] w-[100%]">
-                {item.description}{" "}
+              <TextReveal fontSize="text-gray-500 avro font-bold py-1 md:w-[30rem] w-[100%]">
+                {item.description}
               </TextReveal>
 
-              <div className="flex flex-row flex-wrap w-[30rem] gap-[1rem] mt-[.5rem]">
+              <div className="flex flex-row flex-wrap w-[100%] lg:w-[30rem] gap-[1rem] mt-[.5rem]">
                 {item.languages.map((language) => (
                   <TextReveal
                     fontSize="lilitia border text-extralight px-3 py-1"
@@ -226,11 +226,6 @@ const ProjectOverview = ({ filter }) => {
                   </TextReveal>
                 ))}
               </div>
-              {/* <div className="mt-[2rem]">
-                <TextReveal fontSize="text-[20px] text- avro">
-                  {item.description}
-                </TextReveal>
-              </div> */}
             </div>
           </div>
         ))}
