@@ -30,7 +30,6 @@ const Stack = () => {
 
             <p className="text-slate-500 px-[1rem] avro mt-3">A proficient frontend developer skilled in crafting responsive and visually appealing web applications using HTML, CSS, Javascript and Reactjs to bring innovative designs to life and enhance better user engagement.</p>
 
-            <p className="text-slate-500 gluten mt-3 px-[1rem]">A proficient frontend developer skilled in crafting responsive and visually appealing web applications using HTML, CSS, Javascript and Reactjs to bring innovative designs to life and enhance better user engagement.</p>
 
         </div>
         </div>
@@ -42,7 +41,6 @@ const Stack = () => {
 
                 <p className="text-slate-500 px-[1rem]  avro mt-3">I specialize in React Native mobile development, harnessing its power to build sleek and responsive cross-platform apps that captivate users.</p>
 
-                <p className="text-slate-500 gluten mt-3 px-[1rem]">I specialize in React Native mobile development, harnessing its power to build sleek and responsive cross-platform apps that captivate users.</p>
 
             </div>
         </div>
