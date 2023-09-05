@@ -87,7 +87,7 @@ const Home = () => {
           <motion.p initial={{opacity: 0.25, y: 150}} animate={{opacity: 1, y: 0}} transition={{ease: 'easeInOut', duration: 1}} className="text-gray-500 avro text-[23px]">Hello my name is <span className="text-[23px] text-gray-200">Salau Oluwatobiloba Abayomi</span>, nice to meet you. <br />I would like to welcome you to my personal portfolio.</motion.p>
           </div>
         </div>
-        <TextScrollAnimation>Frontend Developer</TextScrollAnimation>
+        <TextScrollAnimation>Frontend Developer- Frontend Developer</TextScrollAnimation>
         {/* <Navbar /> */}
         {/* <div>
           <motion.img initial={{x: 750, opacity: 0.25}}
